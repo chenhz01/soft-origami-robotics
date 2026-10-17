@@ -1,3 +1,9 @@
+## English Summary
+
+These ten notes investigate whether compliant structures can turn safety, adaptability, and geometry-programmed motion into engineering capabilities instead of laboratory demonstrations. They cover compliance as a force limit fixed at design time rather than a runtime safeguard, origami creases treated as programmable kinematic joints, pneumatic actuation where the body and the actuator are the same part, sensing that has to be co-located with the material, why control becomes a different problem class rather than a compute shortage, a scenario-sliced 2026 market map, medical and logistics applications, hybrid rigid-soft designs, and an explicit list of what soft robots are not good at. Every claim is paired with boundary numbers carrying source grades and with specified counter-evidence that would void it. They are written for engineers and researchers evaluating this field, and for readers deciding whether the compliance premium is worth the speed and precision it costs.
+
+> 中文简介见下 ↓
+
 # 软体机器人与折纸机器人 · 十件研究笔记
 
 一句话定位：这是一组围绕「柔性结构能否把安全、顺应与几何编程做成工程能力」写下的独立研究笔记——十件各自给出机制、边界数与证伪条件，供同行复核，也供非本行的人判断「与我何干」。
@@ -51,3 +57,33 @@
 ## 许可
 
 MIT License. 作者署名：chenhz01。
+
+## 同系列笔记（五个领域）
+
+| 领域 | 仓库 | 一句话 |
+|---|---|---|
+| 神经形态计算与事件驱动传感 | [neuromorphic-event-sensing](https://github.com/chenhz01/neuromorphic-event-sensing) | 永远在线的智能为什么必须抛弃「帧」与全局时钟，以及省 100 倍的前提条件 |
+| AI 老药新用与计算重定位 | [ai-drug-repurposing](https://github.com/chenhz01/ai-drug-repurposing) | 用计算手段给已上市分子找新适应症，以及 10-30% 的前瞻重复率边界 |
+| 本地优先软件与 CRDT 同步 | [local-first-crdt](https://github.com/chenhz01/local-first-crdt) | 把数据主副本放回用户设备，冲突由数学保证收敛 |
+| 后量子密码迁移 | [post-quantum-migration](https://github.com/chenhz01/post-quantum-migration) | 从 Shor 的威胁模型走到一人公司能执行的换算法顺序 |
+| 软体与折纸机器人 | [soft-origami-robotics](https://github.com/chenhz01/soft-origami-robotics) | 柔性结构能否把安全、顺应与几何编程做成工程能力 |
+
+五套笔记各自独立，互不依赖，可任选入口进入。
+
+## 费曼速览：60 秒判断这个领域值不值得你花时间
+
+**一句话**：像用吸管编的抓手去抓草莓——捏不坏，因为「捏不坏」是做进材料里的，不靠程序临时收力；哪里不像：吸管抓手比金属夹子慢，也不如它准，一受力就变形，而变形就意味着位置和力度不好重复。
+
+**三个数**：
+
+1. 2025 年全球市场 18.6 亿美元（同比 +41.2%），2026 年预计突破 26.3 亿美元 [二手]
+2. 医疗健康占 2025 年出货 43.2%；航空航天仅占 7.9%，但均价 12.8 万美元/台 [二手]
+3. 2025 年全球出货 4.7 万台/套，按总额粗算整体均价约 4 万美元/台 [二手] + [推算]
+
+**不成立的三个条件**：
+
+1. 若软体在速度与精度上追平刚性控制，「柔顺本身的物理代价」（受力即形变、形变即误差与不可重复定位）这一核心论断不成立。
+2. 若混合刚性-柔性被证明能以更低成本覆盖全部有价值场景，则纯软体作为独立范式长期存在的判断失效。
+3. 若 41.2% 的增速主要由航空航天项目制订单造成（块状而非流状增长），或服务性收入占比 28.4% 未在 2026 年兑现，则服务化转型叙事被推翻。
+
+这套笔记的每篇都有完整两层费曼拆解，方法见 [FEYNMAN.md](./FEYNMAN.md)。
