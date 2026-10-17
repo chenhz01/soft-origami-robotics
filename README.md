@@ -1,8 +1,30 @@
-## English Summary
+## 15 秒判断：这套笔记值不值得你收藏
+
+**收藏它，如果你是 ——**
+- 在评估异形易损品（生鲜、精密玻璃件）抓取破损率与换品换线工时的仓储或产线自动化负责人
+- 准备进入软体或折纸赛道、正在挑第一个场景切口的创业者或投资人（需要单位经济性，不是总量数字）
+- 做微创或可吞咽器械选型、必须知道耐用性与灭菌标准今天成熟到哪一步的医疗器械工程师
+
+**直接划走，如果你要的是 ——**
+- 可直接加工的机械图纸或可运行的控制代码（本仓是纯研究笔记，无代码、无产品、无可采购清单）
+- 有稳定更新节奏的连载（十件笔记写完即止，更新不定期）
+- 证明软体比刚性更快更准的材料（本仓结论正相反：至今速度与精度仍不及刚性控制 [一手]）
+
+**三条最反直觉的发现 ——**
+1. 软体机器人出货量最大的场景不是工厂产线，是医疗健康（医疗占 2025 年出货 43.2% [二手]，同期工业物流与仓储分拣同比 +52.6% [二手]）
+2. 软体控制难不是算力不够，是问题类别从有限维跃迁到连续无限维，三条替代路线全部只是绕行（至今速度与精度仍不及刚性控制 [一手]）
+3. 被称为「自主」的软体机器人，多数设计至今拖着外置泵、缆绳与外置电子件（机载气动系统能量密度需数量级提升才谈自主移动 [推算]）
+
+---
+
+<details>
+<summary><b>English Summary</b>（英文读者展开）</summary>
 
 These ten notes investigate whether compliant structures can turn safety, adaptability, and geometry-programmed motion into engineering capabilities instead of laboratory demonstrations. They cover compliance as a force limit fixed at design time rather than a runtime safeguard, origami creases treated as programmable kinematic joints, pneumatic actuation where the body and the actuator are the same part, sensing that has to be co-located with the material, why control becomes a different problem class rather than a compute shortage, a scenario-sliced 2026 market map, medical and logistics applications, hybrid rigid-soft designs, and an explicit list of what soft robots are not good at. Every claim is paired with boundary numbers carrying source grades and with specified counter-evidence that would void it. They are written for engineers and researchers evaluating this field, and for readers deciding whether the compliance premium is worth the speed and precision it costs.
 
 > 中文简介见下 ↓
+
+</details>
 
 # 软体机器人与折纸机器人 · 十件研究笔记
 
@@ -87,3 +109,16 @@ MIT License. 作者署名：chenhz01。
 3. 若 41.2% 的增速主要由航空航天项目制订单造成（块状而非流状增长），或服务性收入占比 28.4% 未在 2026 年兑现，则服务化转型叙事被推翻。
 
 这套笔记的每篇都有完整两层费曼拆解，方法见 [FEYNMAN.md](./FEYNMAN.md)。
+
+## 可引用卡片：想转给同事，直接复制这几句
+
+> 软体机器人 43.2% 的出货进了医院，工厂产线不是它最大的买家
+> —— 出自《2026 市场地图：$1.86B→$2.63B》，[查看原文](./notes/06-market-map-2026.md)
+
+> 软体控制难不是算力不够，是问题类别跃迁：至今速度与精度仍不及刚性
+> —— 出自《控制难题：无限自由度的非线性地狱》，[查看原文](./notes/05-control-nightmare.md)
+
+> 多数软体设计至今离不开外置泵，机载能量密度要再提一个数量级才谈自主
+> —— 出自《反例与证伪：软体不擅长什么》，[查看原文](./notes/10-falsification-limits.md)
+
+每句都自带出处链接，可单独复制转发。
